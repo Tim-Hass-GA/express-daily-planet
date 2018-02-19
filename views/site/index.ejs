@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Daily Planet News Home</title>
-  </head>
-  <body>
-    <nav>
-      <a href="index">Home</a>
-      <a href="articles">Todays' News</a>
-      <a href="articles/:id">Show Example</a>
-      <a href="new">Add Article</a>
-      <a href="contact">Contact</a>
-      <a href="about">About</a>
-    </nav>
+<%- include ../partials/header.ejs %>
+
       <main>
-        <img src="http://blogs.smithsonianmag.com/design/files/2013/06/first-daily-planet1.jpg" alt="A picture of our lovely headquarters">
+        <img src="../../images/first-daily-planet1.jpg" alt="A picture of our lovely headquarters">
         <h1>What's happening today...</h1>
         <p>Welcome to the Daily Planet. We need your superhuman developer
           skills to help us share news with the world. We've seen that you
@@ -23,8 +10,7 @@
 
         <p>You'll need to hook your server up to a database to create,
           store and display articles.</p>
-        <div>
       </main>
-    </div>
-  </body>
-</html>
+
+
+<%- include ../partials/footer.ejs %>
